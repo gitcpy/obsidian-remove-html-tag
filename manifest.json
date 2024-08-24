@@ -1,1 +1,9 @@
-
+{
+    "id": "remove-html-tag",
+    "name": "Remove HTML Tag",
+    "version": "1.0.1",
+    "minAppVersion": "0.9.12",
+    "description": "Remove HTML tag in Markdown file",
+    "author": "ChenPengyuan",
+    "isDesktopOnly": false
+}
