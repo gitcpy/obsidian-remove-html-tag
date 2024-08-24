@@ -1,0 +1,9 @@
+{
+    "id": "remove-html-tags-plugin",
+    "name": "Remove HTML Tags Plugin",
+    "version": "1.0.0",
+    "minAppVersion": "0.12.0",
+    "description": "Remove HTML tags from Markdown files.",
+    "author": "ChenPengyuan(gitcpy)",
+    "isDesktopOnly": false
+  }
