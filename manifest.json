@@ -1,6 +1,6 @@
 {
-    "id": "remove-html-tags",
-    "name": "Remove HTML Tags",
+    "id": "remove-html-tag",
+    "name": "Remove HTML Tag",
     "version": "1.0.0",
     "minAppVersion": "0.12.0",
     "description": "Remove HTML tags from Markdown files.",
