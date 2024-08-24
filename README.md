@@ -1,6 +1,6 @@
 A plugin for obsidian. Remove HTML tags from Markdown files. 
 
-If you added HTML tags to md file, it is a trouble to delete those tags. 
+If you added HTML tags to md file text, it is a trouble to delete those tags. 
 
 So just get this plugin, and it is very convenient to delete those tags by it.
 
