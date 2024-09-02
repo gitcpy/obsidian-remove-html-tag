@@ -5,8 +5,8 @@ export default class RemoveHtmlTagsPlugin extends Plugin {
     console.log('Loading RemoveHtmlTagsPlugin');
 
     this.addCommand({
-      id: 'remove-html-tags',
-      name: 'Remove HTML Tags',
+      id: 'remove',
+      name: 'Remove',
       callback: () => this.removeHtmlTags(),
     });
   }
