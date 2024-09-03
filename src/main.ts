@@ -16,9 +16,9 @@ export default class RemoveHtmlTagsPlugin extends Plugin {
   }
 
   removeHtmlTags() {
-    const activeLeaf = this.app.workspace.activeLeaf;
-    if (activeLeaf && activeLeaf.view instanceof MarkdownView) {
-      const editor = activeLeaf.view.editor;
+    const view = this.app.workspace.getActiveViewOfType(MarkdownView);
+    if (view && view.getViewType() === 'markdown') {
+      const editor = view.editor;
 
       // 获取当前选择内容的范围
       const selection = editor.getSelection();
@@ -32,7 +32,7 @@ export default class RemoveHtmlTagsPlugin extends Plugin {
       editor.replaceSelection(cleanedSelection);
 
       // 恢复光标到清除后的文本开头
-      editor.setSelection(selectionStart, selectionStart);
+      editor.setSelection(selectionStart, selectionStart);     
     }
   }
 }
